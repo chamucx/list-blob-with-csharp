@@ -1,9 +1,8 @@
 ﻿using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
 
-string connectionString = "DefaultEndpointsProtocol=https;AccountName=demoappcore;AccountKey=F7L7yIs8GE5/oCNiuNFsr6hacl7Cb4a03bSsHbP0rAgX/4hTIs6Dh7ZZVXhxwuae+zrx4USd1N28+AStlTM/7A==;EndpointSuffix=core.windows.net";
-
-string containerName = "makec";
+string connectionString = "your string"
+string containerName = "name";
 
 BlobContainerClient blobContainerClient =
     new BlobContainerClient(connectionString, containerName);
